@@ -91,7 +91,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 	"password":"12345678" 
 }
 
-## ---------------------------LOAN API FOR USERS ----------------------------------------------
+## ----------------LOAN API FOR USERS ------------------------------
 Apply new loan api
 ## http://127.0.0.1:8000/api/applyloan
 {
@@ -113,7 +113,7 @@ Pay Loan EMI
 View EMI Details
 ## http://127.0.0.1:8000/api/viewemi?id=11&api_token=HlB5DDkMIzXFtvZrWCHS3qZKbTrElQwKLHZ9LyPcGNj1OGMAjGTy2XKbc9Su
 
-## --------------------------------------LOAN API FOR ADMIN-----------------------------------------
+## -------------------------LOAN API FOR ADMIN---------------------
 ADD Role
 ## http://127.0.0.1:8000/api/role
 {
