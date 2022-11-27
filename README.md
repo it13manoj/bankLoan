@@ -66,12 +66,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Installation process
 
-Step 1: Download the Code
-Step 2: Update the Composer
-Step 3: Create the Database bank
-Step 4: Import the Database;
-Step 5: Create the .Env file and add the Database details
-Step 6: Run the Artisan Command
+## Step 1: Download the Code
+## Step 2: Update the Composer
+## Step 3: Create the Database bank
+## Step 4: Import the Database;
+## Step 5: Create the .Env file and add the Database details
+## Step 6: Run the Artisan Command
 
 ## API Details
 ## Baseurl: http://127.0.0.1:8000/api/
