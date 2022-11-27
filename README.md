@@ -76,7 +76,7 @@ Step 6: Run the Artisan Command
 ## API Details
 ## Baseurl: http://127.0.0.1:8000/api/
 
-## Register New User API
+## Register and Login
 ## http://127.0.0.1:8000/api/register
 {
 	"name":"Manoj kumar sharma",
@@ -84,4 +84,56 @@ Step 6: Run the Artisan Command
 	"password":"12345678",
 	"role":"2",
 	"status":"1"
+}
+## http://127.0.0.1:8000/api/login
+{
+	"email":"it13manoj@gmail.com",
+	"password":"12345678" 
+}
+
+## ---------------------------LOAN API FOR USERS ----------------------------------------------
+Apply new loan api
+## http://127.0.0.1:8000/api/applyloan
+{
+	"contact":"9340334220",
+	"address":"Chandigardh",
+	"amount":"10000000.00",
+	"term":"3",
+	"status":"0"
+	
+}
+Show loan details
+## http://127.0.0.1:8000/api/loandetails?id=3&api_token=HlB5DDkMIzXFtvZrWCHS3qZKbTrElQwKLHZ9LyPcGNj1OGMAjGTy2XKbc9Su
+
+View Approved loan API
+## http://127.0.0.1:8000/api/viewloan?api_token=HlB5DDkMIzXFtvZrWCHS3qZKbTrElQwKLHZ9LyPcGNj1OGMAjGTy2XKbc9Su
+
+Pay Loan EMI
+## http://127.0.0.1:8000/api/payemai
+View EMI Details
+## http://127.0.0.1:8000/api/viewemi?id=11&api_token=HlB5DDkMIzXFtvZrWCHS3qZKbTrElQwKLHZ9LyPcGNj1OGMAjGTy2XKbc9Su
+
+## --------------------------------------LOAN API FOR ADMIN-----------------------------------------
+ADD Role
+## http://127.0.0.1:8000/api/role
+{
+	"role":"Users"
+}
+Accepted Loan
+## http://127.0.0.1:8000/api/accepted
+{
+	"id":3
+}
+Declined Loan
+## http://127.0.0.1:8000/api/declined
+{
+	"id":1
+}
+Show Loan List
+## http://127.0.0.1:8000/api/all
+
+Closed the Loan
+## http://127.0.0.1:8000/api/close
+{
+    "id":11
 }
